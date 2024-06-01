@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <a href="https://www.google.com/search?q=how+to+recover+password&sca_esv=6f9e1a7fb0ade677&sca_upv=1&sxsrf=ADLYWIJGRBkKrE2b3CU9cGvIUw2u9Rj-Fw%3A1717278211741&source=hp&ei=A5ZbZvmbK9SawPAP8IfHkQ0&iflsig=AL9hbdgAAAAAZlukEznMgZ8-L1BBenfcN0lt613pn_Dz&ved=0ahUKEwi5qajur7uGAxVUDRAIHfDDMdIQ4dUDCBU&uact=5&oq=how+to+recover+password&gs_lp=Egdnd3Mtd2l6Ihdob3cgdG8gcmVjb3ZlciBwYXNzd29yZDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIzDtQqRtY4TpwAXgAkAEAmAG3A6AByB6qAQowLjE5LjEuMS4xuAEDyAEA-AEBmAIXoAKNH6gCCsICBxAjGCcY6gLCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIEECMYJ8ICChAAGIAEGBQYhwLCAgUQLhiABMICCBAuGIAEGNQCmAMIkgcKMS4xOS4xLjEuMaAH_7YB&sclient=gws-wiz" class="forgot-password">Forgot Password?</a>
+        </div>
+        <div class="image-section">
+            <img src="img.jpg" alt="Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
