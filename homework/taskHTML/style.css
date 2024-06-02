@@ -52,7 +52,7 @@ body {
     margin-right: 5px;
 }
 
-.login-section button {
+.login-section button{
     margin-top: 20px;
     padding: 10px;
     background-color: #007BFF;
@@ -61,6 +61,11 @@ body {
     cursor: pointer;
     width: 150px;
     height: 40px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: grey;
 }
 
 .login-section button:hover {
